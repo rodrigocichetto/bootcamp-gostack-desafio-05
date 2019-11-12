@@ -117,6 +117,11 @@ export const IssueFilter = styled.div`
       background: #576574;
       color: white;
     }
+
+    &:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
   }
 `;
 
